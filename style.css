@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav {
+    padding: 10px;
+    background-color: darkgrey;
+    font-weight: 800;
+    color: white;
+}
+
+a {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    font-weight: 800;
+    color: white;
+    gap: 1rem;
+}
+
+.active {
+    color:white
+}
+
+.btn {
+    box-shadow: 10px 5px 5px black;
+    background-color: aqua;
+}
+
